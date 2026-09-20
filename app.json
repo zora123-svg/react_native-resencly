@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "track-subscriptions",
-    "slug": "track-subscriptions",
+    "name": "react_native-resencly",
+    "slug": "react_native-resencly",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "tracksubscriptions",
+    "scheme": "reactnativeresencly",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -38,7 +38,11 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
