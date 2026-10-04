@@ -1,15 +1,20 @@
-import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import  { Component } from 'react'
+import { Text } from 'react-native'
 import { SafeAreaView as RNSafeAreaView } from 'react-native-safe-area-context'
 import { styled } from 'nativewind'
 
 const SafeAreaView = styled( RNSafeAreaView ) // Allows us to apply styling rules 
 
+/**
+ * Shows the list of subscriptions the user is tracking.
+ */
 export default class subscriptions extends Component {
   render() {
     return (
       <SafeAreaView>
+      <SafeAreaView>
         <Text>Subscriptions</Text>
+      </SafeAreaView>
       </SafeAreaView>
     )
   }

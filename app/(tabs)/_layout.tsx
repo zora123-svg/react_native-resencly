@@ -8,9 +8,15 @@ import { components , colors} from "@/constants/theme"
 
 const tabBar = components.tabBar
 
-
+/**
+ * Builds the main bottom tab layout and configures each tab icon.
+ */
 const TabLayout = () =>{
     const insets = useSafeAreaInsets() // How much space a device takes up
+
+    /**
+     * Renders one tab icon and highlights it when the tab is active.
+     */
     const TabIcon = ({focused, icon}: TabIconProps) => {
         return (
         <View className="tabs-icon">

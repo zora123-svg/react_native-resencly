@@ -1,4 +1,6 @@
-// What we have in our globals we want to use it in our components
+/**
+ * This is the styling we want to use within our componets 
+ */
 export const colors = {
     background: "#fff9e3",
     foreground: "#081126",
