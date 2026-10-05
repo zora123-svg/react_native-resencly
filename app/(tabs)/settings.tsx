@@ -11,11 +11,11 @@ const SafeAreaView = styled(RNSafeAreaView)
 export default class settings extends Component {
   render() {
     return (
-      <SafeAreaView>
+ 
       <SafeAreaView>
         <Text> textInComponent </Text>
       </SafeAreaView>
-      </SafeAreaView>
+      
     )
   }
 }

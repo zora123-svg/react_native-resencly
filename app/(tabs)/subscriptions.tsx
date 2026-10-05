@@ -11,11 +11,11 @@ const SafeAreaView = styled( RNSafeAreaView ) // Allows us to apply styling rule
 export default class subscriptions extends Component {
   render() {
     return (
-      <SafeAreaView>
+     
       <SafeAreaView>
         <Text>Subscriptions</Text>
       </SafeAreaView>
-      </SafeAreaView>
+      
     )
   }
 }
