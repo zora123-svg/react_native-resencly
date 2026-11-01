@@ -246,3 +246,13 @@ Pin note: `lightningcss` is pinned to `1.30.1` via `overrides` in `package.json`
 - Duplicate `--font-sans*` declarations in `global.css`'s `@theme` – safe to remove one block.
 - Data is mock only; next step is a real data source (state/storage/backend).
 - Reanimated / gesture-handler are installed but unused.
+-  Minor version mismatches
+      package                         expected  found    
+      react                           19.3.0    19.2.3   
+      react-dom                       19.3.0    19.2.3   
+      react-native                    0.88.1    0.86.3   
+      react-native-reanimated         4.7.1     4.5.1    
+      react-native-safe-area-context  ~5.10.1   5.7.0    
+      react-native-screens            ~4.30.1   4.26.2   
+      react-native-worklets           0.13.0    0.10.1   
+      @types/react                    ~19.3.0   19.2.18  

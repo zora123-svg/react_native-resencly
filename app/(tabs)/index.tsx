@@ -61,7 +61,7 @@ export default function App() {
       </View>
 
       <View className="flex-1" >
-        <ListHeading title="All Subscription" />
+        <ListHeading title="All Subscriptions" />
 
         <FlatList 
           data={HOME_SUBSCRIPTIONS}
