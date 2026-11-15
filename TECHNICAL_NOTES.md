@@ -256,3 +256,17 @@ Pin note: `lightningcss` is pinned to `1.30.1` via `overrides` in `package.json`
       react-native-screens            ~4.30.1   4.26.2   
       react-native-worklets           0.13.0    0.10.1   
       @types/react                    ~19.3.0   19.2.18  
+
+
+This is how I overcome the context window of my AI agent. By dividing it into parts and after each part is excuted it will wit for my command example: I'll provide you with three different messages.
+1. The first one is going to be the first part of the expo documentation.
+2. The second one is going to be the second part of the expo documentation.
+3. The thrid one is going to be my prompt that should take into account when implementing all of these features. After every single message, ask me to provide the next one. 
+
+Study whole codebase and attached Clerk documentation to implement a complete custom Clerk auth flow for this Expo app with production-grade sign up and sign in screen with logic, validation, and navigation.  
+
+The UI must strictly match the existing app design system and NativeWind patterns and no generic “Clerk” wording.
+
+Use the attached design only as layout inspiration, but keep the auth polished, brand-native, and focused on conversion, clarity, and trust.
+
+I made the desicion to also add sign out and forgot password routes in my plan. I did not think of it but the agent put the descion in my hand on what it should because my intent was too only build sign-in and sign-up. Now sign out and forgot password along with a screen to create a new passwords as also been provided.

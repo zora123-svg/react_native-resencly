@@ -32,6 +32,7 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
 
 # typescript
@@ -47,3 +48,6 @@ app-example
 .claude
 .vscode
 TECHNICAL_PR.MD
+TECHNICAL_NOTES.md
+AGENTS.md
+CLAUDE.md
